@@ -7,8 +7,6 @@ const SearchParams = () => {
 
   return (
     <div className="searchParams">
-      {" "}
-      {/* onSubmit={...} */}
       <form htmlFor="location">
         <label htmlFor="location">
           Location {location}
