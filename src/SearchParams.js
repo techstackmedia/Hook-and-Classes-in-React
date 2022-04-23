@@ -3,7 +3,7 @@ const SearchParams = () => {
   return (
     <div className="searchParams">
       {" "}
-      {/* onSubmit={...}*/}
+      {/* onSubmit={...} */}
       <form htmlFor="location">
         <label htmlFor="">
           Location
