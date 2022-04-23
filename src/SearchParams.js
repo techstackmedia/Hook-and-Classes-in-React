@@ -7,6 +7,8 @@ const SearchParams = () => {
 
   return (
     <div className="searchParams">
+      {" "}
+      {/* onSubmit={...} */}
       <form htmlFor="location">
         <label htmlFor="location">
           Location {location}
@@ -45,6 +47,13 @@ the browser does. Because React can do it faster than the
 Browser. That is hey imitate the normal API. We created the 
 controlled form. If we had no change handler, and no value. 
 Next repo.
+
+With on submit, we could capture the entire event, 
+pull out everything in the form and submit it 
+(like normal HTML form). It is called uncontrolled form 
+or uncontrolled input.
+
+The uncontrolled is not controlled by React that is why the name.
 
  */
 
