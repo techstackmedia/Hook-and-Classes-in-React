@@ -22,7 +22,7 @@ look like this. It is like a snapshot of what my component
 will look like given props and state.
 
 Avoid side effects and have pure functions
-Anytime a push a button, React captures that event and then 
+Anytime you push a button, React captures that event and then 
 tries to the re-render that component (app). That is it 
 kicks up a re-render cycle. Nothing changes it for now. 
 It is just “Seattle, WA”
